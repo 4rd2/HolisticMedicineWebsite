@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section id="about" className="py-24 px-6 bg-emerald-50">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-        {/* Image placeholder */}
+        {/* Photo placeholder */}
         <div className="relative">
           <div className="aspect-[4/5] rounded-3xl bg-gradient-to-br from-emerald-200 to-stone-200 flex items-center justify-center text-8xl shadow-inner">
             🌱
@@ -15,26 +15,25 @@ export default function About() {
 
         {/* Text */}
         <div>
-          <span className="text-emerald-600 text-sm tracking-widest uppercase">Our Story</span>
+          <span className="text-emerald-600 text-sm tracking-widest uppercase">About Sandra</span>
           <h2 className="text-4xl font-semibold text-stone-800 mt-2 mb-6 leading-snug">
-            Rooted in Tradition,<br />Guided by Science
+            Rooted in Tradition,<br />Guided by Nature
           </h2>
           <p className="text-stone-500 leading-relaxed mb-4">
-            Founded on the belief that true healing addresses the whole person, our practice blends
-            ancient wisdom with modern understanding. We work with each client to uncover the root
-            causes of imbalance rather than simply managing symptoms.
+            Sandra Friedman is a Certified Holistic Health Practitioner and Nutrition Consultant
+            who believes true healing begins by addressing the whole person — body, mind, and spirit.
           </p>
           <p className="text-stone-500 leading-relaxed mb-8">
-            Our practitioners hold deep training in traditional Chinese medicine, Ayurveda, Western
-            herbalism, and integrative nutrition — providing you with a truly comprehensive path to
-            wellness.
+            With advanced training in Traditional Chinese Medicine, Iridology, and Mineral Hair
+            Analysis, Sandra works with each client to uncover root imbalances and build a
+            personalized, natural path to lasting wellness.
           </p>
 
           <div className="grid grid-cols-2 gap-6">
             {[
-              { num: '500+', label: 'Clients Served' },
-              { num: '100%', label: 'Natural Remedies' },
-              { num: '6', label: 'Healing Modalities' },
+              { num: 'HHP', label: 'Holistic Health Practitioner' },
+              { num: 'NC', label: 'Nutrition Consultant' },
+              { num: 'TCM', label: 'Traditional Chinese Medicine' },
               { num: '1:1', label: 'Personalized Care' },
             ].map((stat) => (
               <div key={stat.label} className="bg-white rounded-xl p-4 shadow-sm text-center">

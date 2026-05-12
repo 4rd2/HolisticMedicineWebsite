@@ -6,14 +6,15 @@ export default function Hero() {
     >
       <div className="max-w-3xl">
         <span className="inline-block text-emerald-700 text-sm tracking-widest uppercase mb-4">
-          Natural • Holistic • Traditional
+          Certified Holistic Health Practitioner · Nutrition Consultant
         </span>
-        <h1 className="text-5xl md:text-6xl font-semibold text-stone-800 leading-tight mb-6">
-          Restore Balance,<br />Heal Naturally
+        <h1 className="text-5xl md:text-6xl font-semibold text-stone-800 leading-tight mb-4">
+          Sandra Friedman
         </h1>
+        <p className="text-xl text-emerald-700 font-medium mb-6 tracking-wide">HHP, NC</p>
         <p className="text-lg text-stone-500 max-w-xl mx-auto mb-10 leading-relaxed">
-          Drawing on centuries of traditional medicine, we offer personalized holistic care to
-          nurture your body, mind, and spirit back to harmony.
+          Drawing on the wisdom of Traditional Chinese Medicine and whole-person nutrition,
+          Sandra guides you toward lasting balance — naturally.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
@@ -29,8 +30,6 @@ export default function Hero() {
             Explore Services
           </a>
         </div>
-
-        {/* Decorative leaf divider */}
         <div className="mt-20 text-emerald-300 text-4xl select-none">✦ ✦ ✦</div>
       </div>
     </section>
