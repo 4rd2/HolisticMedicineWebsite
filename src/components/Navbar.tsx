@@ -68,7 +68,49 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-6 flex items-center justify-between h-16">
 
         {/* Brand */}
-        <Link to="/" className="flex flex-col leading-tight">
+        <Link to="/" className="flex items-center gap-2.5 group">
+          {/* Leaf mark */}
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" className="shrink-0">
+            {/* Outer leaf */}
+            <path
+              d="M16 3C16 3 6 8 6 18C6 23.523 10.477 28 16 28C21.523 28 26 23.523 26 18C26 8 16 3 16 3Z"
+              className="fill-emerald-100 stroke-emerald-600"
+              strokeWidth="1.25"
+            />
+            {/* Inner vein - center */}
+            <path
+              d="M16 6V26"
+              className="stroke-emerald-500"
+              strokeWidth="1"
+              strokeLinecap="round"
+            />
+            {/* Side veins */}
+            <path
+              d="M16 12 C13 14 11 16 10 19"
+              className="stroke-emerald-400"
+              strokeWidth="0.85"
+              strokeLinecap="round"
+            />
+            <path
+              d="M16 12 C19 14 21 16 22 19"
+              className="stroke-emerald-400"
+              strokeWidth="0.85"
+              strokeLinecap="round"
+            />
+            <path
+              d="M16 17 C14 18.5 12.5 19.5 11.5 21.5"
+              className="stroke-emerald-300"
+              strokeWidth="0.75"
+              strokeLinecap="round"
+            />
+            <path
+              d="M16 17 C18 18.5 19.5 19.5 20.5 21.5"
+              className="stroke-emerald-300"
+              strokeWidth="0.75"
+              strokeLinecap="round"
+            />
+          </svg>
+
           <span className="text-lg font-semibold text-emerald-800 tracking-wide">Holistic Living</span>
         </Link>
 
