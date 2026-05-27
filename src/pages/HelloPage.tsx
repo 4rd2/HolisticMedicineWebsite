@@ -1,11 +1,11 @@
 import Hero from '../components/Hero'
-import Services from '../components/Services'
+import CategoryGrid from '../components/CategoryGrid'
 
 export default function HelloPage() {
   return (
     <main>
       <Hero />
-      <Services />
+      <CategoryGrid />
     </main>
   )
 }
