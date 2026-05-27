@@ -9,19 +9,19 @@ interface HolisticItem {
 }
 
 const holisticLivingItems: HolisticItem[] = [
-  { label: 'Sleep Essentials', emoji: '🌙', bg: 'from-indigo-100 to-blue-50',   catId: 'holistic-sleep'      },
-  { label: 'Kitchen',          emoji: '🍳', bg: 'from-orange-100 to-amber-50',  catId: 'holistic-kitchen'    },
-  { label: 'Pantry',           emoji: '🫙', bg: 'from-yellow-100 to-lime-50',   catId: 'holistic-pantry'     },
-  { label: 'Superfoods',       emoji: '🥦', bg: 'from-emerald-100 to-green-50', catId: 'holistic-superfoods' },
-  { label: 'Wellness',         emoji: '🌿', bg: 'from-teal-100 to-emerald-50',  catId: 'holistic-wellness'   },
-  { label: 'Apparel',          emoji: '👘', bg: 'from-rose-100 to-pink-50',     catId: 'holistic-apparel'    },
-  { label: 'Shoes',            emoji: '👟', bg: 'from-sky-100 to-cyan-50',      catId: 'holistic-shoes'      },
-  { label: 'Babies & Kids',    emoji: '🧸', bg: 'from-pink-100 to-rose-50',     catId: 'holistic-babies'     },
-  { label: 'Furniture',        emoji: '🪑', bg: 'from-stone-100 to-amber-50',   catId: 'holistic-furniture'  },
-  { label: 'Travel',           emoji: '✈️', bg: 'from-blue-100 to-sky-50',      catId: 'holistic-travel'     },
-  { label: 'Books',            emoji: '📚', bg: 'from-violet-100 to-purple-50', catId: 'holistic-books'      },
-  { label: 'Quotes',           emoji: '💬', bg: 'from-amber-100 to-yellow-50',  catId: 'holistic-quotes'     },
-  { label: 'Misc',             emoji: '✨', bg: 'from-fuchsia-100 to-pink-50',  catId: 'holistic-misc'       },
+  { label: 'Sleep Essentials', emoji: '🌙', bg: 'from-indigo-100 to-blue-50',   catId: 'sleep-essentials' },
+  { label: 'Kitchen',          emoji: '🍳', bg: 'from-orange-100 to-amber-50',  catId: 'kitchen'          },
+  { label: 'Pantry',           emoji: '🫙', bg: 'from-yellow-100 to-lime-50',   catId: 'pantry'           },
+  { label: 'Superfoods',       emoji: '🥦', bg: 'from-emerald-100 to-green-50', catId: 'superfoods'       },
+  { label: 'Wellness',         emoji: '🌿', bg: 'from-teal-100 to-emerald-50',  catId: 'wellness'         },
+  { label: 'Apparel',          emoji: '👘', bg: 'from-rose-100 to-pink-50',     catId: 'apparel'          },
+  { label: 'Shoes',            emoji: '👟', bg: 'from-sky-100 to-cyan-50',      catId: 'shoes'            },
+  { label: 'Babies & Kids',    emoji: '🧸', bg: 'from-pink-100 to-rose-50',     catId: 'babies'           },
+  { label: 'Furniture',        emoji: '🪑', bg: 'from-stone-100 to-amber-50',   catId: 'furniture'        },
+  { label: 'Travel',           emoji: '✈️', bg: 'from-blue-100 to-sky-50',      catId: 'travel'           },
+  { label: 'Books',            emoji: '📚', bg: 'from-violet-100 to-purple-50', catId: 'books'            },
+  { label: 'Quotes',           emoji: '💬', bg: 'from-amber-100 to-yellow-50',  catId: 'quotes'           },
+  { label: 'Misc',             emoji: '✨', bg: 'from-fuchsia-100 to-pink-50',  catId: 'misc'             },
 ]
 
 const navLinks = [

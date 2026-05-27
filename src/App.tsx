@@ -13,7 +13,7 @@ export default function App() {
       <Routes>
         <Route path="/"                element={<HelloPage />}      />
         <Route path="/about"           element={<AboutPage />}      />
-        <Route path="/holistic-living" element={<HolisticLiving />} />
+        <Route path="/holistic-living/*" element={<HolisticLiving />} />
         <Route path="/blog"            element={<BlogPage />}       />
       </Routes>
       <Footer />
