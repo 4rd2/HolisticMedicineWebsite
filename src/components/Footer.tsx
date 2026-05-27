@@ -1,58 +1,42 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
   const [disclaimerOpen, setDisclaimerOpen] = useState(false)
 
   return (
     <footer className="bg-stone-800 text-stone-400">
-      <div className="max-w-6xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-10">
+      <div className="max-w-6xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-2 gap-10">
         {/* Brand */}
         <div>
-          <p className="text-white font-semibold text-lg mb-1">Holistic Living</p>
-          <p className="text-emerald-400 text-xs tracking-wider mb-3">HHP, NC</p>
-          <p className="text-sm leading-relaxed">
-            Certified Holistic Health Practitioner and Nutrition Consultant.
-            Compassionate, whole-person care rooted in traditional wisdom.
+          <p className="text-white font-semibold text-lg mb-2">Holistic Living</p>
+          <p className="text-sm leading-relaxed max-w-xs">
+            A curated wellness platform helping you build a non-toxic, intentional life —
+            one thoughtful choice at a time.
           </p>
         </div>
 
         {/* Quick links */}
         <div>
-          <p className="text-white font-semibold mb-3">Quick Links</p>
+          <p className="text-white font-semibold mb-3">Explore</p>
           <ul className="space-y-2 text-sm">
             {[
-              { label: 'Hello', href: '#home' },
-              { label: 'About', href: '#about' },
-              { label: 'Services', href: '#services' },
-              { label: 'Blog', href: '#blog' },
-              { label: 'Contact', href: '#contact' },
+              { label: 'Home',            to: '/'               },
+              { label: 'About',           to: '/about'          },
+              { label: 'Shop',            to: '/holistic-living'},
+              { label: 'Blog',            to: '/blog'           },
             ].map((l) => (
               <li key={l.label}>
-                <a href={l.href} className="hover:text-emerald-400 transition-colors">
+                <Link to={l.to} className="hover:text-emerald-400 transition-colors">
                   {l.label}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
         </div>
-
-        {/* Contact */}
-        <div id="contact-footer">
-          <p className="text-white font-semibold mb-3">Contact</p>
-          <ul className="space-y-2 text-sm">
-            <li>
-              <a
-                href="tel:+16143837897"
-                className="hover:text-emerald-400 transition-colors"
-              >
-                (614) 383-7897
-              </a>
-            </li>
-          </ul>
-        </div>
       </div>
 
-      {/* Disclaimer */}
+      {/* Affiliate + health disclaimer */}
       <div className="border-t border-stone-700 px-6 py-4 max-w-6xl mx-auto">
         <button
           onClick={() => setDisclaimerOpen(!disclaimerOpen)}
@@ -69,11 +53,12 @@ export default function Footer() {
 
         {disclaimerOpen && (
           <p className="mt-3 text-xs text-stone-500 leading-relaxed max-w-3xl mx-auto text-center">
-            The information provided on this website is for educational purposes only and is not
-            intended to diagnose, treat, cure, or prevent any disease or health condition. The
-            services offered by Holistic Living (HHP, NC) are complementary and do not replace
-            the advice of a licensed medical doctor. Always consult a qualified healthcare
-            professional before making changes to your health regimen.
+            This site contains affiliate links. We may earn a small commission if you purchase
+            through our links, at no extra cost to you. All recommendations are based on genuine
+            belief in the product's quality and alignment with holistic wellness principles.
+            Content on this site is for informational purposes only and does not constitute
+            medical advice. Always consult a qualified healthcare professional before making
+            changes to your health regimen.
           </p>
         )}
       </div>

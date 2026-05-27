@@ -1,11 +1,3 @@
-import Hero from '../components/Hero'
-import CategoryGrid from '../components/CategoryGrid'
-
 export default function HelloPage() {
-  return (
-    <main>
-      <Hero />
-      <CategoryGrid />
-    </main>
-  )
+  return <main className="min-h-screen pt-16" />
 }

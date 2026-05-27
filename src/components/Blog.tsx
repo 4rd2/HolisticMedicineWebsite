@@ -36,9 +36,6 @@ export default function Blog() {
         <div className="text-center mb-16">
           <span className="text-emerald-600 text-sm tracking-widest uppercase">Holistic Insights</span>
           <h2 className="text-4xl font-semibold text-stone-800 mt-2">From the Blog</h2>
-          <p className="text-stone-500 mt-4 max-w-lg mx-auto">
-            Practical wisdom and natural health guidance from our practice.
-          </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

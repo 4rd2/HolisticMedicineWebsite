@@ -4,7 +4,6 @@ import Footer from './components/Footer'
 import HelloPage from './pages/HelloPage'
 import AboutPage from './pages/AboutPage'
 import BlogPage from './pages/BlogPage'
-import ContactPage from './pages/ContactPage'
 import HolisticLiving from './components/HolisticLiving'
 
 export default function App() {
@@ -12,11 +11,10 @@ export default function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/"                element={<HelloPage />}     />
-        <Route path="/about"           element={<AboutPage />}     />
+        <Route path="/"                element={<HelloPage />}      />
+        <Route path="/about"           element={<AboutPage />}      />
         <Route path="/holistic-living" element={<HolisticLiving />} />
-        <Route path="/blog"            element={<BlogPage />}      />
-        <Route path="/contact"         element={<ContactPage />}   />
+        <Route path="/blog"            element={<BlogPage />}       />
       </Routes>
       <Footer />
     </>

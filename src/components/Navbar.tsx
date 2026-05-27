@@ -70,7 +70,6 @@ export default function Navbar() {
         {/* Brand */}
         <Link to="/" className="flex flex-col leading-tight">
           <span className="text-lg font-semibold text-emerald-800 tracking-wide">Holistic Living</span>
-          <span className="text-xs text-stone-500 tracking-wide">HHP, NC</span>
         </Link>
 
         {/* Desktop links */}
@@ -131,13 +130,6 @@ export default function Navbar() {
           </li>
         </ul>
 
-        <Link
-          to="/contact"
-          className="hidden md:inline-block bg-emerald-700 hover:bg-emerald-800 text-white text-sm px-5 py-2 rounded-full transition-colors"
-        >
-          Book a Session
-        </Link>
-
         {/* Mobile hamburger */}
         <button
           className="md:hidden text-stone-600"
@@ -188,12 +180,6 @@ export default function Navbar() {
             </div>
           </div>
 
-          <Link
-            to="/contact"
-            className="mt-2 bg-emerald-700 text-white text-sm px-5 py-2 rounded-full text-center"
-          >
-            Book a Session
-          </Link>
         </div>
       )}
     </nav>

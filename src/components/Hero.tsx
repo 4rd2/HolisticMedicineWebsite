@@ -19,7 +19,7 @@ export default function Hero() {
         </p>
         <p className="text-base text-stone-400 max-w-xl mx-auto mb-10 leading-relaxed">
           Every recommendation is filtered through the lens of Traditional Chinese Medicine,
-          whole-food nutrition, and decades of integrative practice.
+          whole-food nutrition, and deep study of integrative wellness.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
