@@ -1,24 +1,23 @@
+import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import Services from './components/Services'
-import About from './components/About'
-import Testimonials from './components/Testimonials'
-import Blog from './components/Blog'
-import Contact from './components/Contact'
 import Footer from './components/Footer'
+import HelloPage from './pages/HelloPage'
+import AboutPage from './pages/AboutPage'
+import BlogPage from './pages/BlogPage'
+import ContactPage from './pages/ContactPage'
+import HolisticLiving from './components/HolisticLiving'
 
 export default function App() {
   return (
     <>
       <Navbar />
-      <main>
-        <Hero />
-        <Services />
-        <About />
-        <Testimonials />
-        <Blog />
-        <Contact />
-      </main>
+      <Routes>
+        <Route path="/"                element={<HelloPage />}     />
+        <Route path="/about"           element={<AboutPage />}     />
+        <Route path="/holistic-living" element={<HolisticLiving />} />
+        <Route path="/blog"            element={<BlogPage />}      />
+        <Route path="/contact"         element={<ContactPage />}   />
+      </Routes>
       <Footer />
     </>
   )

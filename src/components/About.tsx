@@ -15,17 +15,17 @@ export default function About() {
 
         {/* Text */}
         <div>
-          <span className="text-emerald-600 text-sm tracking-widest uppercase">About Sandra</span>
+          <span className="text-emerald-600 text-sm tracking-widest uppercase">About Us</span>
           <h2 className="text-4xl font-semibold text-stone-800 mt-2 mb-6 leading-snug">
             Rooted in Tradition,<br />Guided by Nature
           </h2>
           <p className="text-stone-500 leading-relaxed mb-4">
-            Sandra Friedman is a Certified Holistic Health Practitioner and Nutrition Consultant
+            Holistic Living is led by a Certified Holistic Health Practitioner and Nutrition Consultant
             who believes true healing begins by addressing the whole person — body, mind, and spirit.
           </p>
           <p className="text-stone-500 leading-relaxed mb-8">
             With advanced training in Traditional Chinese Medicine, Iridology, and Mineral Hair
-            Analysis, Sandra works with each client to uncover root imbalances and build a
+            Analysis, we work with each client to uncover root imbalances and build a
             personalized, natural path to lasting wellness.
           </p>
 

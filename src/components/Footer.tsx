@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-10">
         {/* Brand */}
         <div>
-          <p className="text-white font-semibold text-lg mb-1">Sandra Friedman</p>
+          <p className="text-white font-semibold text-lg mb-1">Holistic Living</p>
           <p className="text-emerald-400 text-xs tracking-wider mb-3">HHP, NC</p>
           <p className="text-sm leading-relaxed">
             Certified Holistic Health Practitioner and Nutrition Consultant.
@@ -71,7 +71,7 @@ export default function Footer() {
           <p className="mt-3 text-xs text-stone-500 leading-relaxed max-w-3xl mx-auto text-center">
             The information provided on this website is for educational purposes only and is not
             intended to diagnose, treat, cure, or prevent any disease or health condition. The
-            services offered by Sandra Friedman HHP, NC are complementary and do not replace
+            services offered by Holistic Living (HHP, NC) are complementary and do not replace
             the advice of a licensed medical doctor. Always consult a qualified healthcare
             professional before making changes to your health regimen.
           </p>
@@ -79,7 +79,7 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-stone-700 px-6 py-4 text-center text-xs text-stone-600">
-        © {new Date().getFullYear()} Sandra Friedman HHP, NC. All rights reserved.
+        © {new Date().getFullYear()} Holistic Living. All rights reserved.
       </div>
     </footer>
   )

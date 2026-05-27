@@ -9,12 +9,12 @@ export default function Hero() {
           Certified Holistic Health Practitioner · Nutrition Consultant
         </span>
         <h1 className="text-5xl md:text-6xl font-semibold text-stone-800 leading-tight mb-4">
-          Sandra Friedman
+          Holistic Living
         </h1>
         <p className="text-xl text-emerald-700 font-medium mb-6 tracking-wide">HHP, NC</p>
         <p className="text-lg text-stone-500 max-w-xl mx-auto mb-10 leading-relaxed">
           Drawing on the wisdom of Traditional Chinese Medicine and whole-person nutrition,
-          Sandra guides you toward lasting balance — naturally.
+          Guiding you toward lasting balance — naturally.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
